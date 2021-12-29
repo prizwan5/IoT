@@ -1,0 +1,33 @@
+Design Considerations:
+
+Sourcing materials.
+This was an adventure of its own. Bought a few things to scavenge from and tried to use things I already had. Found a really good local (Kitchener, Ontario Canada)place to buy all things electronic. Sayal Electronics  in Cambridge Ontario.
+
+Workshop Setup.
+Helped me reset up a soldering station  and get a few tools that worked better. first time I've used heat shrink tubing for insulation.
+
+Microprocessor
+I had a Raspberry Pi 3 that t was using as a linux, python  and minecraft termnal. Tried to use that.
+Broke the protruding SD card in half fitting it to the frame. Bought a new SD Noobs card and Pi wouldn't boot - only get red power light.  Reseached this problem  but after a week polyfuses had not reset.
+Remember messing with a 9 volt battery and leads before remembering Pi is 5 volts max. Brick!.
+Decided to try an Audrino Uno that I bought and never did anything with. 
+
+Motors
+Had a few sets of motors to chose from. The Yellow ones I used are very power  hungry. Used a N298L motor driver, bought from Sayal. Just clicked till I doubled up the 9 volt batteries in parallel, eventually went to 3. Soldered a little wiring harness. Fun.
+
+Wires
+Colours. Next time I'm going to be more considerate. Wiring nest looks like a birthday party. Used a breadboard on chassis so that I could work on my power problem, and also use the arduino to try other sensors and actuators as I was figuring it out, without disassembling the car.
+
+Structural Issues.
+Finding space and fitting stuff on the frame. Keeping stuff attached. Little nuts kept falling off. Used Rubber bands and fiberglass 
+tape more than I wanted to or will next time.
+
+Coding
+Since I'd switched to an Arduino, I was now into their IDE and C++. Kept my program simpler, Car advances straight till senses an obsticle at 20 cm, then turns left. If no obsticle goes straight. Repeat.  I feel I can meet the objectives of this assigment with that as demonstrated by my Mp4.
+
+Batteries
+I need to do more study  on batteries, 9 volt one times probably wont be my next choice. 
+
+CAD SOFTWARE
+Looked at Fritzing. Paysite, downloaded KiCad, the learning curve was too big, easier for me to draw my one time
+schematic for this  in MS Paint. Learn KiKad later.
